@@ -1,0 +1,60 @@
+﻿body {
+    background-color: black;
+    background-position:center;
+    background-size:cover;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Gadugi;
+}
+p1 {
+    padding: 0% 0% 0% 0%;
+    color: black;
+    font-family: Corbel;
+    font-size: 22px;
+}
+img {
+    height: 250px;
+    width: 250px;
+    padding: 0% 0% 0% 0%;
+}
+.contactbanner {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    background-color: mediumpurple;
+    grid-gap: 2rem;
+    align-items: center;
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+    font-family: 'Times New Roman';
+}
+.message form input, form textarea {
+    padding: 0% 3% 0% 1%; /*DO NOT CHANGE PADDING*/
+    color: snow;
+    border-block-color: rebeccapurple;
+    border-block-end-style: solid;
+    background: #505786;
+    font-size: 20px;
+    grid-template-columns: repeat(2,2fr);
+    margin-bottom: 0.8rem;
+    border-radius: 11px;
+}
+.message textarea{ /*DO NOT CHANGE*/
+    height: 200px;
+    width: 580px;
+}
+.message form .btn{
+    display: block;  
+    font-size:1.5rem;
+    text-transform: capitalize;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    padding: 5% 40% 3% 30%; /* Top Right Bottom Left*/
+}
+video {
+    padding: 5% 40% 0% 30%;
+}
+
